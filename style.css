@@ -286,6 +286,7 @@ p {
 	animation-delay: 1.5s;
     font-family: 'Lemonada', cursive;
     margin-bottom: 10px;
+	letter-spacing:0rem;
     
 }
 #hero h1:nth-child(1)
@@ -759,9 +760,6 @@ p {
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
-	.hero h1{
-		letter-spacing:0rem;
-	}
 	 
     .section-title
     {
