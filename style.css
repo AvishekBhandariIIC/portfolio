@@ -754,9 +754,7 @@ p {
 	color: white;
 	font-size: 1.3rem;
 	font-family: 'Recursive', sans-serif;
-	margin: none auto;
-	min-left:5px;
-	min-right:5px;
+	text-align: center;
 }
 
 
