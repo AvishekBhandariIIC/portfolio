@@ -736,18 +736,26 @@ p {
 }
 #footer .social-icon {
 	display: flex;
-	margin-bottom: 20px;
+	margin: 10px auto 20px;
 }
-#footer .social-item {
-	height: 50px;
-	width: 50px;
-	margin: 0 5px;
+
+#footer .social-icon a{
+    color: white;
+    margin: auto 10px;
+   
+    
 }
-#footer .social-item img {
-	transition: .3s ease transform;
+
+#footer .social-item i {
+	
+    transition: .2s ease-in transform, .3s ease-in color;
 }
-#footer .social-item:hover img {
-	transform: scale(1.3);
+
+#footer .social-item:hover i {
+    
+    transform: scale(1.3);
+    color: aqua;
+   
 }
 #footer p {
 	color: white;
