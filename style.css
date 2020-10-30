@@ -279,7 +279,7 @@ p {
     position: relative;
     color:transparent;
     font-size: 3.5rem;
-    line-height: 5.5rem;
+    line-height: 4.5rem;
     width: fit-content;
     animation: text_reveal .5s ease forwards;
 	animation-delay: 1.5s;
