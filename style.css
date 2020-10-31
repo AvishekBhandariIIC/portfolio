@@ -559,7 +559,7 @@ p {
     height: 300px;
     overflow: hidden;
     position: relative;
-  
+    object-fit:cover;
 }
 
 #projects .project-img:after{
