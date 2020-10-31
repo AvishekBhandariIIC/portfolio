@@ -575,7 +575,7 @@ p {
 
 #projects .project-img img{
     transition: .3s ease transform;
-	 object-fit:cover;
+	 object-fit:fill;
    
 }
 #projects .project-item:hover .project-img img{
