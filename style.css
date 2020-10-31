@@ -559,7 +559,7 @@ p {
     height: 300px;
     overflow: hidden;
     position: relative;
-    object-fit:cover;
+   
 }
 
 #projects .project-img:after{
@@ -575,6 +575,7 @@ p {
 
 #projects .project-img img{
     transition: .3s ease transform;
+	 object-fit:cover;
    
 }
 #projects .project-item:hover .project-img img{
