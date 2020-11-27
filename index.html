@@ -11,7 +11,15 @@
         
     </head>
 
-    <body>
+    <body onload="myFunction()">
+        
+        <div id="load">
+            <div id="loading">
+                <div id="rots"></div>
+                <h2>Loading...</h2>
+             </div>
+        </div>
+        
       <section id="header">
         <div class="header container">
           <div class="nav-bar">
@@ -271,6 +279,13 @@
     
     </body>
     <script src="app.js"></script>
+    <script>
+
+      var preloader= document.getElementById('load');
+      function myFunction(){
+        preloader.style.display= 'none';
+      }
+    </script>
     
   
 </html>
