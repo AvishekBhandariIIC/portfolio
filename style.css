@@ -200,7 +200,7 @@ p {
 
 #header .nav-list ul a
 {
-	color: white;
+	color: black;
 	text-transform: uppercase;
     font-family: 'Recursive', sans-serif;
     text-decoration: none;
@@ -304,8 +304,8 @@ p {
 /* Hero Section */
 #hero
 {
-    background-image: url(andy-mai-QdSYuTtcGZE-unsplash.jpg);
-    background-size: cover;
+    background: url(matt-palmer-iPum7Ket2jo-unsplash.jpg);
+
     position: relative;
     z-index: 1;
 }
