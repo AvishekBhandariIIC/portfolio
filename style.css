@@ -175,14 +175,6 @@ p {
     animation-delay: s;
 }
 
-
-#header .nav-list{
-    animation: fromtop 650ms ease-in;
-    animation-delay: 800ms;
-    animation-fill-mode: forwards;
-    visibility: hidden;
-}
-
  #header .nav-list ul
 {
 	position: absolute;
@@ -989,6 +981,12 @@ p {
 @media only screen and (min-width:1200px)
 {
     /*Header Section*/
+	#header .nav-list{
+    animation: fromtop 650ms ease-in;
+    animation-delay: 800ms;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
    
 	#header .nav-list .hamburger
     {
