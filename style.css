@@ -298,6 +298,11 @@ p {
 	left:0;
 }
 
+#header .nav-list ul.active li a
+{
+	color:white;
+}
+
 /*End of header section*/
 
 
